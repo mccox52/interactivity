@@ -1,5 +1,5 @@
 .jumbo1 {
-    background: url('../Images/jumbo1.jpg') no-repeat;
+    background: url('../images/jumbo1.jpg') no-repeat;
     height: 550px;
     text-shadow: 2px 2px black;
 }
@@ -49,7 +49,7 @@
 }
 
 .jumbo2 {
-    background: url('../Images/jumbo2.jpg') no-repeat;
+    background: url('../images/jumbo2.jpg') no-repeat;
     height: 550px;
     text-shadow: 2px 2px black;
 }
