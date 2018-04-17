@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script defer src="js/lib/fontawesome-all.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <title>Bootstrap 4 Layouts</title>
+</head>
+
+<body data-spy="scroll" data-target=".site-nav" data-offset="80">
+  <!-- ALL OF YOUR SITE CODE HERE -->
+
+  <header class="site-header d-flex flex-column align-content-between">
+    <nav class="site-nav navbar navbar-expand-md navbar-dark family-sans fixed-top">
+      <div class="container-fluid">
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav"
+          aria-label="Toggle Navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand text-uppercase font-weight-light largertitle" href="index.html">
+          Perfectly Pure</a>
+        <div class="collapse navbar-collapse" id="myTogglerNav">
+          <div class="navbar-nav ml-auto font-weight-regular text-uppercase">
+            <a class="nav-item nav-link" href="index.html">home</a>
+            <a class="nav-item nav-link" href="about.html">about</a>
+            <a class="nav-item nav-link" href="makeup.html">makeup</a>
+            <a class="nav-item nav-link" href="bathandbody.html">bath+body</a>
+            <!-- <a class="nav-item nav-link" href="bathandbody.html">bath+body</a> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Collection
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="collection1.html">By the Sea</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="collection2.html">Organic Sea Kelp</a>
+              </div>
+            </li>
+            <a class="nav-item nav-link" href="bestsellers.html">bestsellers</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section id="layout-hero" class="jumbotron jumbotron-fluid d-flex align-items-center jumboabout1">
+      <div class="container text-center text-white">
+        <div class="row justify-content-center">
+          <div class="col-11 col-sm-10 col-md-8 animated fadeInUp jumboabout2">
+            <h3 class="font-weight-normal largerabout">Organic Sea Kelp Collection</h3>
+          </div>
+          <!-- col -->
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </section>
+  </header>
+
+
+  <article id="layout-multicolumn" class="section vertical-padding">
+    <header class="container text-center">
+    </header>
+    <section class="container py-4">
+      <div class="row justify-content-center py-2">
+        <section class="photo-modal text-center mb-5 col-10 col-md-6 col-lg-4 col-xl-3">
+          <a data-toggle="modal" data-target="#siteModal" data-highres="https://dummyimage.com/16:9x1600/A.png&text=+" href="#">
+            <img class="img-fluid rounded" src="images/eyetint1.jpg" alt="sample image">
+          </a>
+          <h5 class="title text-center text-uppercase font-weight-bold mt-1">Eye Pigment 1</h5>
+          <p>$18</p>
+        </section>
+        <section class="photo-modal text-center mb-5 col-10 col-md-6 col-lg-4 col-xl-3">
+          <a data-toggle="modal" data-target="#siteModal" data-highres="https://dummyimage.com/16:9x1600/A.png&text=+" href="#">
+            <img class="img-fluid rounded" src="images/cheektint2.png" alt="sample image">
+          </a>
+          <h5 class="title text-center text-uppercase font-weight-bold mt-1">Cheek Tint 2</h5>
+          <p>$22</p>
+        </section>
+        <section class="photo-modal text-center mb-5 col-10 col-md-6 col-lg-4 col-xl-3">
+          <a data-toggle="modal" data-target="#siteModal" data-highres="https://dummyimage.com/16:9x1600/A.png&text=+" href="#">
+            <img class="img-fluid rounded" src="images/liptint3.png" alt="sample image">
+          </a>
+          <h5 class="title text-center text-uppercase font-weight-bold mt-1">Lip Tint 3</h5>
+          <p>$32</p>
+        </section>
+      </div>
+      <!-- row -->
+    </section>
+    <!-- container -->
+
+
+
+    <!-- content container -->
+
+    <footer class="footer">
+      <div class="container py-5 d-flex justify-content-center">
+        <a class="text-white px-2" href="https://twitter.com/planetoftheweb">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a class="text-white px-2" href="https://facebook.com/viewsource">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a class="text-white px-2" href="https://linkedin.com/in/planetoftheweb">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a class="text-white px-2" href="https://www.youtube.com/user/planetoftheweb">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </div>
+    </footer>
+
+    <!-- ALL OF YOUR SITE CODE HERE -->
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/popper.min.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <!-- ADDITIONAL JS HERE -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

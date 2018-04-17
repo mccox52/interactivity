@@ -1,0 +1,69 @@
+.jumbo1 {
+    background: url('../Images/jumbo1.jpg') no-repeat;
+    height: 550px;
+    text-shadow: 2px 2px black;
+}
+
+.jumbo1-btn {
+    text-shadow: none;
+    background: #d6d0d0;
+}
+
+.description {
+    position: absolute;
+    z-index: 3;
+    top: 20%;
+    left: 50%;
+}
+
+
+.cf1 {
+    font-family: 'Julius Sans One', sans-serif;
+    position: absolute;
+    z-index: 3;
+    top: 15%;
+    left: 10%;
+}
+.cf2 {
+    font-family: 'Julius Sans One', sans-serif;
+    position: absolute;
+    z-index: 3;
+    top: 70%;
+    left: 35%;
+}
+
+.cf3 {
+    font-family: 'Julius Sans One', sans-serif;
+    position: absolute;
+    z-index: 3;
+    top: 20.5%;
+    left: 10%;
+}
+
+.homejumbo1 {
+    font-family: 'Julius Sans One', sans-serif;
+    position: absolute;
+    z-index: 3;
+    top: 140%;
+    right: 40%;
+}
+
+.jumbo2 {
+    background: url('../Images/jumbo2.jpg') no-repeat;
+    height: 550px;
+    text-shadow: 2px 2px black;
+}
+
+.jumbo2-btn {
+    text-shadow: none;
+    background: #d6d0d0;
+}
+
+.homejumbo2 {
+    font-family: 'Julius Sans One', sans-serif;
+    position: absolute;
+    z-index: 3;
+    top: 260%;
+}
+
+
